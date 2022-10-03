@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+
+    <div class="container">
+        
+        <div class="choose-area" id="choose-area">
+
+            <div class="input-group">
+                <select class="form-select" id="age">
+                  <option value="default">Yaş Aralığı Seçin</option>
+                  <option value="child">7-12 Yaş Arası</option>
+                  <option value="adolescent">12-16 Yaş Arası</option>
+                  <option value="adult">16 Yaş ve Üstü</option>
+                  <option value="all">Tüm Kitapları Göster</option>
+                </select>
+                <button class="show-button" type="button">Göster</button>
+              </div>
+        </div>
+        <div class="book-area">
+            <div class="row" id="book-row">
+                <div class="categories" id="categories">
+                    <!-- <h2 class="text-center">7-16 Yaş Aralığı İçin Kitaplar</h2> -->
+                </div>
+                <!--<div class="col-md-3">
+                    <div class="book-image">
+                        <img src="img/kucuk-prens.jpg" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="class.js"></script>
+    
+</body>
+</html>
